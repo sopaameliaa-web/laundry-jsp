@@ -1,0 +1,99 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f4f4f4;
+}
+
+/* ===== LAYOUT ===== */
+.layout{
+    display:flex;
+    min-height:100vh;
+}
+
+/* ===== SIDEBAR ===== */
+.sidebar{
+    width:220px;
+    background:#7b1fa2;
+    color:white;
+    padding:20px;
+}
+
+.sidebar h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.sidebar a{
+    display:block;
+    color:white;
+    text-decoration:none;
+    padding:12px;
+    border-radius:6px;
+    margin-bottom:10px;
+    background:#8e24aa;
+}
+
+.sidebar a:hover{
+    background:#9c27b0;
+}
+
+/* ===== CONTENT ===== */
+.content{
+    flex:1;
+    padding:30px;
+}
+
+/* ===== BUTTON ===== */
+.btn{
+    display:inline-block;
+    padding:10px 16px;
+    background:#7b1fa2;
+    color:white;
+    text-decoration:none;
+    border-radius:6px;
+    margin-bottom:15px;
+}
+
+.btn:hover{
+    background:#9c27b0;
+}
+
+.btn-kembali{
+    background:#b39ddb;
+}
+
+/* ===== TABLE ===== */
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 4px 8px rgba(0,0,0,.1);
+}
+
+th{
+    background:#ede7f6;
+    padding:12px;
+    text-align:center;
+}
+
+td{
+    padding:10px;
+    text-align:center;
+    border-bottom:1px solid #ddd;
+}
+
+tr:hover{
+    background:#f9f5fc;
+}
+
+.action a{
+    color:#7b1fa2;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.action a:hover{
+    text-decoration:underline;
+}

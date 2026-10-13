@@ -1,0 +1,232 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f4f8;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    background: #1976d2;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin-top: 15px;
+}
+
+table th {
+    background: #1976d2;
+    color: white;
+    padding: 10px;
+}
+
+table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+table tr:hover {
+    background: #e3f2fd;
+}
+
+a {
+    text-decoration: none;
+    color: #1976d2;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0d47a1;
+}
+
+button {
+    background: #1976d2;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background: #0d47a1;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 6px;
+    width: 350px;
+    margin: 0 auto;        /* membuat form berada di tengah */
+    display: block;        /* memastikan marginnya bekerja */
+}
+
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+/* Card form container */
+.form-card {
+    max-width: 650px;
+    margin: auto;
+    border-radius: 12px;
+    background: #ffffff;
+    padding: 35px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+/* Title */
+.form-title {
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+/* Input style */
+.form-control {
+    height: 48px;
+    border-radius: 10px;
+    border: 1px solid #dce3eb;
+    transition: all .2s ease;
+}
+
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 .145rem rgba(13,110,253,.25);
+}
+
+/* Button spacing */
+.btn-custom {
+    padding: 10px 26px;
+    border-radius: 10px;
+}
+
+/* Danger & warning button hover improvement */
+.btn-danger:hover,
+.btn-warning:hover {
+    opacity: .85;
+}
+
+/* Back button */
+.btn-back {
+    border-radius: 10px;
+}
+
+/* Animation */
+.fade-in {
+    animation: fadeIn .4s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to   { opacity: 1; transform: translateY(0px); }
+}
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #ccc;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.btn:hover {
+    background: #ccc;
+}
+
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f6f9;
+        }
+        .sidebar {
+            width: 230px;
+            height: 100vh;
+            background: #2c3e50;
+            position: fixed;
+            color: white;
+        }
+        .sidebar h2 {
+            text-align: center;
+            padding: 20px 0;
+            margin: 0;
+            background: #1a252f;
+        }
+        .sidebar a {
+            display: block;
+            padding: 12px 20px;
+            color: white;
+            text-decoration: none;
+        }
+        .sidebar a:hover {
+            background: #34495e;
+        }
+        .content {
+            margin-left: 230px;
+            padding: 20px;
+        }
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .card h3 {
+            margin: 0;
+            color: #555;
+        }
+        .card p {
+            font-size: 28px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+        table th, table td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        table th {
+            background: #2980b9;
+            color: white;
+        }
+        .btn {
+            padding: 5px 10px;
+            border-radius: 4px;
+            color: white;
+            background: #3498db;
+            text-decoration: none;
+        }
+.btn-kembali {
+    display: inline-block;
+    padding: 8px 14px;
+    background: #7f8c8d;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.btn-kembali:hover {
+    background: #616a6b;
+}
